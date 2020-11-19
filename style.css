@@ -1,0 +1,109 @@
+/* General Styles */
+
+
+/* body */
+body {
+ margin: 0px;
+ background-color: black;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ color: white;
+}
+
+body .content {
+  background: url("images/background/Me.jpg") no-repeat top right;
+  height: 1400px;
+  width: 1700px;
+  margin: auto;
+     }
+ body .content h1 {
+  font-weight: normal;
+  padding: 25px 0 0;
+  margin: 0px;
+  font-size: 105px; }
+
+  body .p{
+  text-align: left;
+}
+
+/*header */
+
+  header h1 {
+  font-family: Big Shoulders Stencil Display, cursive;
+  font-weight: normal;
+  padding: 25px 0 0;
+  margin: 0px;
+  font-size: 105px;
+  text-align: center;
+    
+  }
+
+  header h2{
+  padding: 25px 0 0;
+  margin: 0px;
+  text-align: center;
+  
+  }
+header h4{
+  text-align: center;
+   color: #CCC7C3;
+}
+
+ul{
+  list-style-type: square;
+}
+
+
+.info h2{
+  font-family: Big Shoulders Stencil Display, cursive;
+ }
+
+ /* contact */
+
+.contact{
+  text-align: center;
+  list-style-position: inside
+}
+
+.contact h2{
+  color: yellow;
+  Font-family: Big Shoulders Stencil Display, cursive;
+}
+
+/*Campbell link */
+a.orange:link {color:darkorange;}
+a.orange:visited {color:white;}
+a.orange:hover {color:darkorange;}
+a.orange:active {color:darkorange;}
+
+/*George Mason link */
+a.green:link {color: green;}
+a.green:visited {color:white;}
+a.green:hover {color: green;}
+a.green:active {color: green;}
+
+/*Thinkful link */
+a.white:link {color: yellow;}
+a.white:visited {color:white;}
+a.white:hover {color:yellow;}
+a.white:active {color:yellow;}
+
+/*Raleigh link */
+a.raleigh:link {color: yellow;}
+a.raleigh:visited {color:white;}
+a.raleigh:hover {color:yellow;}
+a.raleigh:active {color:yellow;}
+
+/*Contact links */
+a.blue:link {color:lightskyblue;}
+a.blue:visited {color:white;}
+a.blue:hover {color:lightskyblue;}
+a.blue:active {color:lightskyblue;}
+
+
+
+/*footer */
+
+footer{
+  text-align: center;
+  font-size: 50px;
+ }
